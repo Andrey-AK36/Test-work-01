@@ -1,0 +1,60 @@
+:root {
+  --color-link: #2196f3;
+  --color-text: #757575;
+  --color-button-text: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: #fff;
+}
+.logo {
+  font-family: 'Raleway', serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.text {
+  color: var(--color-text);
+  line-height: 1.71;
+  font-size: 14px;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+.adr-header {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.71;
+}
+.adr-footer {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+}
+footer {
+  background-color: #2f303a;
+}
+footer > a {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.current {
+  color: red;
+}
+span {
+  color: var(--color-link);
+}
+.link:hover,
+.link:focus {
+  color: var(--color-link);
+}
+ul {
+  list-style: none;
+}
