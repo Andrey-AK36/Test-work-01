@@ -13,6 +13,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .text {
   color: var(--color-text);
@@ -36,6 +37,7 @@ body {
 }
 footer {
   background-color: #2f303a;
+  letter-spacing: 0.03em;
 }
 footer > a {
   color: #ffffff;
@@ -55,6 +57,15 @@ span {
 .link:focus {
   color: var(--color-link);
 }
+.link {
+  text-decoration: none;
+}
 ul {
   list-style: none;
+}
+header {
+  letter-spacing: 0.02em;
+}
+main {
+  letter-spacing: 0.03em;
 }
